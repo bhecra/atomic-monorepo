@@ -7,9 +7,9 @@ export default {
         argTypes: {
             variant: {
                 description: "Establece el estilo visual del botón",
+                options: ["primary", "secondary"],
                 control: {
                     type: "select",
-                    options: ["primary", "secondary"],
                 },
             },
         },
