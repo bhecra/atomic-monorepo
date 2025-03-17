@@ -9,13 +9,13 @@ export const theme = {
         primary: "#3498db",
         secondary: "#f1f1f1",
         text: "#333",
-        background: "#ffffff"
+        background: "#ffffff",
     },
     spacing: {
         xs: "4px",
         sm: "8px",
         md: "16px",
         lg: "24px",
-        xl: "32px"
-    }
-}; 
+        xl: "32px",
+    },
+};

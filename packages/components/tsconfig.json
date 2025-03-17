@@ -1,8 +1,8 @@
 {
-        "extends": "@atomico/tsconfig/base.json",
-        "include": ["src/**/*", "vite.config.js"],
-        "exclude": ["src/stories"],
-        "compilerOptions": {
-                "outDir": "types"
-        }
+    "extends": "@atomico/tsconfig/base.json",
+    "include": ["src/**/*", "vite.config.js"],
+    "exclude": ["src/stories"],
+    "compilerOptions": {
+        "outDir": "types"
+    }
 }

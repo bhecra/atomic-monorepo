@@ -30,8 +30,8 @@ import { Button, Input, Card } from "@ds/components";
 <ds-button variant="secondary">Botón secundario</ds-button>
 
 <!-- Como componente JSX -->
-<Button>Botón por defecto</Button>
-<Button variant="secondary">Botón secundario</Button>
+<button>Botón por defecto</button>
+<button variant="secondary">Botón secundario</button>
 ```
 
 #### Input
@@ -52,14 +52,10 @@ import { Button, Input, Card } from "@ds/components";
 
 ```html
 <!-- Como componente HTML -->
-<ds-card title="Título de la tarjeta">
-  Contenido de la tarjeta
-</ds-card>
+<ds-card title="Título de la tarjeta"> Contenido de la tarjeta </ds-card>
 
 <!-- Como componente JSX -->
-<Card title="Título de la tarjeta">
-  Contenido de la tarjeta
-</Card>
+<Card title="Título de la tarjeta"> Contenido de la tarjeta </Card>
 ```
 
 ## Desarrollo
@@ -73,4 +69,4 @@ npm run dev
 
 # Construir componentes para producción
 npm run build
-``` 
+```

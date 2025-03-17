@@ -7,21 +7,22 @@ export default {
         argTypes: {
             title: {
                 description: "Título de la tarjeta",
-                control: "text"
-            }
-        }
-    }
-    )
+                control: "text",
+            },
+        },
+    }),
 };
 
 export const Default = (props) => (
     <Card {...props}>
-        Este es el contenido de la tarjeta. Puedes poner cualquier texto o componente aquí.
+        Este es el contenido de la tarjeta. Puedes poner cualquier texto o
+        componente aquí.
     </Card>
 );
 
 export const WithTitle = (props) => (
     <Card title="Título de ejemplo" {...props}>
-        Esta tarjeta tiene un título y contenido. El título se muestra en la parte superior.
+        Esta tarjeta tiene un título y contenido. El título se muestra en la
+        parte superior.
     </Card>
-); 
+);

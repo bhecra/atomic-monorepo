@@ -13,8 +13,8 @@ export default {
                 description: "Tipo de botón",
                 options: ["primary", "secondary"],
                 control: {
-                    type: "select"
-                }
+                    type: "select",
+                },
             },
         },
     }),
