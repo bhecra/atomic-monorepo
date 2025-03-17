@@ -1,0 +1,44 @@
+{
+    "name": "@ds/components",
+    "version": "1.0.0",
+    "type": "module",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "atomico": "*"
+    },
+    "scripts": {
+        "build:types": "tsc",
+        "build:build": "library src/**/*",
+        "build:exports": "exports lib/**/* types/**/* --wrappers",
+        "dev:types": "tsc --watch",
+        "dev:exports": "exports src/**/* types/**/* --watch",
+        "build": "npm run build:types && npm run build:build && npm run build:exports",
+        "prepublishOnly": "npm run build"
+    },
+    "types": "types/index.d.ts",
+    "exports": {
+        "./button": "./src/my-button/index.tsx",
+        "./ui-button": "./src/ui-button/index.tsx",
+        "./ui-button/index.stories": "./src/ui-button/stories/index.stories.tsx",
+        "./ui-icon": "./src/ui-icon/index.tsx",
+        "./ui-icon/index.stories": "./src/ui-icon/stories/index.stories.tsx",
+        "./input": "./src/my-input/index.tsx",
+        "./card": "./src/my-card/index.tsx",
+        ".": "./src/components.tsx"
+    },
+    "typesVersions": {
+        "*": {
+            "button": [
+                "types/my-button/index.d.ts"
+            ],
+            "input": [
+                "types/my-input/index.d.ts"
+            ],
+            "card": [
+                "types/my-card/index.d.ts"
+            ]
+        }
+    }
+}
