@@ -1,4 +1,4 @@
-import { Card } from './my-card/element.js';
+import { Card } from './element3.js';
 import 'atomico/jsx-runtime';
 import 'atomico';
 

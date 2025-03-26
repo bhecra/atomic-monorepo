@@ -1,4 +1,4 @@
-import { IuButton } from './iu-button/element.js';
+import { IuButton } from './element.js';
 import 'atomico/jsx-runtime';
 import 'atomico';
 

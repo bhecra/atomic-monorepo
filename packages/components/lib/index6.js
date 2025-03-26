@@ -1,4 +1,4 @@
-import { UiIcon } from './ui-icon/element.js';
+import { UiIcon } from './element5.js';
 import 'atomico/jsx-runtime';
 import 'atomico';
 

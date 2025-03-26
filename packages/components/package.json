@@ -8,7 +8,8 @@
     "peerDependencies": {
         "atomico": "*",
         "@atomico/react": "*",
-        "@atomico/vue": "*"
+        "@atomico/vue": "*",
+        "@atomico/hooks": "*"
     },
     "scripts": {
         "build:types": "tsc",
@@ -53,7 +54,8 @@
         "./my-input/vue": "./wrappers/my-input/vue.js",
         "./ui-icon/react": "./wrappers/ui-icon/react.js",
         "./ui-icon/preact": "./wrappers/ui-icon/preact.js",
-        "./ui-icon/vue": "./wrappers/ui-icon/vue.js"
+        "./ui-icon/vue": "./wrappers/ui-icon/vue.js",
+        "./24411-2448e-24413": "./lib/chunks/24411-2448e-24413.js"
     },
     "typesVersions": {
         "*": {
@@ -161,6 +163,9 @@
             ],
             "ui-icon/vue": [
                 "wrappers/ui-icon/vue.d.ts"
+            ],
+            "components": [
+                "types/src/components.d.ts"
             ]
         }
     },
@@ -169,6 +174,9 @@
             "optional": true
         },
         "@atomico/vue": {
+            "optional": true
+        },
+        "@atomico/hooks": {
             "optional": true
         }
     }

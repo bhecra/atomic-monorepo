@@ -1,4 +1,4 @@
-import { Button } from './my-button/element.js';
+import { Button } from './element2.js';
 import 'atomico/jsx-runtime';
 import 'atomico';
 

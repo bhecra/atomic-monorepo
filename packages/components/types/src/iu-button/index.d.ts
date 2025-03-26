@@ -1,1 +1,2 @@
-export { IuButton } from "./element";
+import { IuButton } from "./element";
+export { IuButton };

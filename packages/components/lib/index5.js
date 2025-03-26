@@ -1,4 +1,4 @@
-import { Input } from './my-input/element.js';
+import { Input } from './element4.js';
 import 'atomico/jsx-runtime';
 import 'atomico';
 

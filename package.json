@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "@atomico/exports": "^1.6.0",
+        "@atomico/hooks": "^4.4.1",
         "@atomico/run": "^0.8.4",
         "@atomico/scaffold": "^2.9.3",
         "@atomico/tsconfig": "^1.1.2",
